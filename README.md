@@ -3,7 +3,7 @@
 
 # credit-ontology
 
-This ontology... YOUR DESCRIPTION HERE
+This ontology is an OWL representation of the [CASRAI Contributor Roles Taxonomy (CRediT)](http://dictionary.casrai.org/Contributor_Roles).
 
 ## Versions
 
