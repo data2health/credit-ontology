@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/credit
+
+idspace: CREDIT
+base_url: /obo/credit
+
+products:
+- credit.owl: https://raw.githubusercontent.com/data2health/credit-ontology/master/credit.owl
+- credit.obo: https://raw.githubusercontent.com/data2health/credit-ontology/master/credit.obo
+
+term_browser: ontobee
+example_terms:
+- CREDIT_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/data2health/credit-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/data2health/credit-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/CREDIT?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/data2health/credit-ontology/master/
