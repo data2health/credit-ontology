@@ -39,6 +39,7 @@ AnnotationAssertion(obo:IAO_0000114 obo:CREDIT_00000000 "http://purl.obolibrary.
 AnnotationAssertion(obo:IAO_0000115 obo:CREDIT_00000000 "A high-level classification of the diverse roles performed in the work leading to a published research output in the sciences. Its purpose to provide transparency in contributions to scholarly published work, to enable improved systems of attribution, credit, and accountability.")
 AnnotationAssertion(obo:IAO_0000117 obo:CREDIT_00000000 "PERSON: Marijane White")
 AnnotationAssertion(obo:IAO_0000119 obo:CREDIT_00000000 "http://dictionary.casrai.org/Contributor_Roles")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> obo:CREDIT_00000000 "9dbb95f4-55ed-4e43-9301-a9f0e3e17afe")
 AnnotationAssertion(rdfs:label obo:CREDIT_00000000 "contributor role"@en)
 
 # Class: obo:CREDIT_00000001 (conceptualization role)
