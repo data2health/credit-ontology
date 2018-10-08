@@ -11,9 +11,7 @@ This ontology is an OWL representation of the [CASRAI Contributor Roles Taxonomy
 
 The latest version of the ontology can always be found at:
 
-http://purl.obolibrary.org/obo/credit.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
+https://w3id.org/credit/ontology
 
 ### Editors' version
 
