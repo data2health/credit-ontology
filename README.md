@@ -19,8 +19,8 @@ Editors of this ontology should use the edit version, [src/ontology/credit-edit.
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/data2health/credit-ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [issue tracker](https://github.com/data2health/credit-ontology/issues) to request edits, report errors, or specific concerns related to the ontology.
 
 ## Acknowledgements
 
-This ontology repository was created using the [ontology development kit](https://github.com/INCATools/ontology-development-kit)
+This ontology repository was created using the [ontology development kit](https://github.com/INCATools/ontology-development-kit).
