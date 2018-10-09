@@ -23,4 +23,6 @@ Please use this GitHub repository's [issue tracker](https://github.com/data2heal
 
 ## Acknowledgements
 
+[CRediT](https://w3id.org/credit/) by [CASRAI](https://casrai.org) is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) by [data2health](https://github.com/data2health). OWL implemenation of original.
+
 This ontology repository was created using the [ontology development kit](https://github.com/INCATools/ontology-development-kit).
