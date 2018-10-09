@@ -2,7 +2,7 @@
 
 ## new term requests
 
-This ontology is not accepting new term requests.  New terms will only be added to this project if they are first added to [CrediT](https://w3id.org/credit/).  Contributors with suggestions for additional contributor roles should consider making those requests to the [Contributor Role Ontology (CRO)](https://github.com/data2health/contributor-role-ontology/issues) instead.  The CRO is semantically aligned with CRediT and aims to provide an expanded set of contributor roles, integration with various vocabularies and upper ontologies that include Role concepts, and discipline-specific subsets of the larger set of roles.
+This ontology is not accepting new term requests.  New terms will only be added to this project if they are first added to [CRediT](https://w3id.org/credit/).  Contributors with suggestions for additional contributor roles should consider making those requests to the [Contributor Role Ontology (CRO)](https://github.com/data2health/contributor-role-ontology/issues) instead.  The CRO is semantically aligned with CRediT and aims to provide an expanded set of contributor roles, integration with various vocabularies and upper ontologies that include Role concepts, and discipline-specific subsets of the larger set of roles.
 
 
 ## modeling requests within the scope of CRediT
