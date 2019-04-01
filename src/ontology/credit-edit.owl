@@ -1,5 +1,5 @@
-Prefix(:=<https://w3id.org/credit/ontology/>)
-Prefix(credit:=<https://w3id.org/credit/ontology/>)
+Prefix(:=<http://purl.org/credit/ontology>)
+Prefix(credit:=<http://purl.org/credit/ontology>)
 Prefix(obo:=<http://purl.obolibrary.org/obo/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
@@ -8,8 +8,8 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<https://w3id.org/credit/ontology/>
-Import(<http://purl.obolibrary.org/obo/credit/imports/iao_import.owl>)
+Ontology(<http://purl.org/credit/ontology>
+Import(<http://purl.org/credit/imports/iao>)
 Annotation(rdfs:comment "OWL implementation of CRediT")
 
 Declaration(Class(credit:CREDIT_00000000))
