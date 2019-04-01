@@ -9,7 +9,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.org/credit/ontology>
-Import(<http://purl.org/credit/imports>)
+Import(<http://purl.org/credit/imports/iao>)
 Annotation(rdfs:comment "OWL implementation of CRediT")
 
 Declaration(Class(credit:CREDIT_00000000))
