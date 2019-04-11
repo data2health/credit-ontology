@@ -11,6 +11,7 @@
 
 OBO=http://purl.obolibrary.org/obo
 ONT=credit
+PURL=http://purl.org/credit
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.owl
 RELEASEDIR=../..
@@ -46,7 +47,8 @@ prepare_release: all
 # by default we use Elk to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
 $(ONT).owl: $(SRC)
-	$(ROBOT)  reason -i $< -r ELK -e none relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+# 	$(ROBOT)  reason -i $< -r ELK -e none relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+	$(ROBOT)  reason -i $< -r ELK -e none relax reduce -r ELK annotate -V $(PURL)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert --check false -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
