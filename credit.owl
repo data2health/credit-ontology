@@ -10,7 +10,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/">
     <owl:Ontology rdf:about="http://purl.org/credit/ontology">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/credit/releases/2019-04-09/credit.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.org/credit/releases/2019-04-11/credit.owl"/>
         <owl:imports rdf:resource="http://purl.org/credit/imports/iao"/>
         <rdfs:comment>OWL implementation of CRediT</rdfs:comment>
     </owl:Ontology>

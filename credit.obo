@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: credit/releases/2019-04-09/credit.owl
+data-version: http://purl.org/credit/releases/2019-04-11/credit.owl
 remark: OWL implementation of CRediT
 import: http://purl.org/credit/imports/iao
 ontology: http://purl.org/credit/ontology
